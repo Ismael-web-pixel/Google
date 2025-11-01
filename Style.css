@@ -1,111 +1,71 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 }
-
-.conteneur{
-    width: 100vh;
-}
-
-.Gmail{
-    gap: 19px;
-    color: #86817F;
-    display: flex;
-    cursor: pointer;
-    align-items: end;
-    font-family: Arial;
-    justify-content: end;
-}
-
+.conteneur{width: 100vh;color: #86817F;padding: 20px;}
+.Gmail{gap: 19px;display: flex;cursor: pointer;justify-content: end;}
 .mael:hover{
-    background-color: darkgrey;
-    border-radius: 2px;
+    background-color: rgb(237, 230, 230);
+    border-radius: 8px;
+    padding: 8px;
 }
-
 .Google{
     gap: 10px;
     display: flex;
     align-items: center;
-    font-family: Arial, sans-serif;
     font-size: 70px;
     font-weight: bold;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
 } 
 .index{ color: #4B90F4;}
-    
-
 .style{ color: #ED4C3C;}
-    
-
 .home{ color: #FCC404;}
-    
-
 .page{ color: #4B90F4;}
-
-
 .souf{  color: #3AB25D;}
-
 .yacin{ color: #ED4C3C;}
-
-.search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+.search{display: flex;align-items: center;justify-content: center;}
 .search input:hover{ border: solid #4B90F4;}
-
-.search input{
-    width: 60%;
-    padding: 17px;
-    border: solid 0.9px;
-    border-radius: 15px;
-    font-size: 19px;
-}
-
+.search input{width: 60%;padding: 15px;border: solid 0.9px;border-radius: 30px;font-size: 25px;}
 .sadore{
     gap: 10px;
     display: flex;
-    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     align-items: center;
     justify-content: center;
 }
-
 .sadore button{
     width: 14%;
     padding: 6px;
     border: none;
     border-radius: 17px;
+    box-shadow: #121212;
     background-color: #F2F2F2;
 }
-
 .sadore button:hover{
     cursor: pointer;
     color:  #3AB25D;
 }
-
 .say{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #311F00;
-    margin-top: -10px;
+    font-size: 15px;
+    margin-bottom: 9px;
 }
-
 .conditiins{
     display: flex;
     font-size: 14px;
-    color: #311F00;
     align-items: center;
     margin-top: -23px;
     justify-content: center;
-    font-family: Arial, sans-serif;
 }
-
 ul{
     display: flex;
     align-items: center;
