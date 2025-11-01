@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.conteneur{
+    width: 100vh;
+}
+
+.Gmail{
+    gap: 19px;
+    color: #86817F;
+    display: flex;
+    cursor: pointer;
+    align-items: end;
+    font-family: Arial;
+    justify-content: end;
+}
+
+.mael:hover{
+    background-color: darkgrey;
+    border-radius: 2px;
+}
+
+.Google{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    justify-content: center;
+} 
+.index{ color: #4B90F4;}
+    
+
+.style{ color: #ED4C3C;}
+    
+
+.home{ color: #FCC404;}
+    
+
+.page{ color: #4B90F4;}
+
+
+.souf{  color: #3AB25D;}
+
+.yacin{ color: #ED4C3C;}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input:hover{ border: solid #4B90F4;}
+
+.search input{
+    width: 60%;
+    padding: 17px;
+    border: solid 0.9px;
+    border-radius: 15px;
+    font-size: 19px;
+}
+
+.sadore{
+    gap: 10px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sadore button{
+    width: 14%;
+    padding: 6px;
+    border: none;
+    border-radius: 17px;
+    background-color: #F2F2F2;
+}
+
+.sadore button:hover{
+    cursor: pointer;
+    color:  #3AB25D;
+}
+
+.say{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #311F00;
+    margin-top: -10px;
+}
+
+.conditiins{
+    display: flex;
+    font-size: 14px;
+    color: #311F00;
+    align-items: center;
+    margin-top: -23px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 19px;
+    font-size: 16px;
+}
+
+.confid{ display: flex;}
+
+@media (max-width: 768px) {
+    .conteneur {
+        width: 100%;
+    }
+
+    .Gmail {
+        margin: 10px 0;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .Google {
+        font-size: 36px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .search input {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .sadore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 15px;
+        padding: 20px;
+    }
+
+    .sadore button {
+        width: 44%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .say, .conditiins {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (max-width: 375px) {
+    .sadore button{
+        font-size: 9px;
+    }
+}
