@@ -7,11 +7,17 @@ body{
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 }
 .conteneur{width: 100vh;color: #86817F;padding: 20px;}
-.Gmail{gap: 19px;display: flex;cursor: pointer;justify-content: end;}
+.Gmail{gap: 19px;display: flex;cursor: pointer;justify-content: end;align-items: center;}
 .mael:hover{
     background-color: rgb(237, 230, 230);
     border-radius: 8px;
+    
+}
+.mael{
     padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Google{
     gap: 10px;
@@ -24,14 +30,23 @@ body{
     margin-bottom: 40px;
 } 
 .index{ color: #4B90F4;}
+
 .style{ color: #ED4C3C;}
+
 .home{ color: #FCC404;}
+
 .page{ color: #4B90F4;}
+
 .souf{  color: #3AB25D;}
+
 .yacin{ color: #ED4C3C;}
+
+
 .search{display: flex;align-items: center;justify-content: center;}
-.search input:hover{ border: solid #4B90F4;}
-.search input{width: 60%;padding: 15px;border: solid 0.9px;border-radius: 30px;font-size: 25px;}
+
+.search input:hover{ border-color: #4B90F4;}
+
+.search input{width: 60%;padding: 15px;border: solid 2px #efeded;border-radius: 30px;font-size: 25px;}
 .sadore{
     gap: 10px;
     display: flex;
@@ -51,6 +66,8 @@ body{
 .sadore button:hover{
     cursor: pointer;
     color:  #3AB25D;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 0 2px #efeded;
 }
 .say{
     display: flex;
